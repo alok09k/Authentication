@@ -37,7 +37,7 @@ function Signup() {
     }
   
     try {
-      const url = "http://localhost:3000/auth/signup";
+      const url = "https://authentication-1ew9.onrender.com/auth/signup";
       const response = await fetch(url, {
         method: "POST",
         headers: {
