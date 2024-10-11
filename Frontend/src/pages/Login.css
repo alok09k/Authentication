@@ -1,55 +1,98 @@
 .main
 {
-    background-color: #c9d6ff;
-    background: linear-gradient(to right, #e2e2e2, #c9d6ff);
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  background-color: #c9d6ff;
+  background: linear-gradient(to right, #e2e2e2, #c9d6ff);
 }
 .container
 {
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
-    background-color: #fff;
-    border-radius: 30px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
-    width: 700px;
-    min-height: 480px;
+  display: flex;
+  background-color: white;
+  border-radius: 30px;
+  align-items: center;
+  height: 480px;
+  
 }
-
 .form-container
 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding-left: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
 }
-
+.toggle
+{
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  height: 100%;
+  justify-content: center;
+  text-align: center;
+  background-color: #512da8;
+  background: linear-gradient(to right, #5c6bc0, #512da8);
+  color: #fff;
+  transition: all 0.6s ease-in-out;
+  border-radius: 150px 30px 30px 100px;
+}
+.toggle-container
+{
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+}
+.toggle-container p
+{
+    font-size: small;
+    text-align: center;
+}
+.toggle-container button
+{
+    background-color: transparent;
+    color: #fff;
+    font-size: 12px;
+    padding: 10px 30px;
+    border: 1px solid white;
+    border-radius: 8px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    cursor: pointer;
+}
 .social-icons{
-    margin: 20px 0;
+  margin: 20px 0;
 }
 
 .social-icons a{
-    border: 1px solid #ccc;
-    border-radius: 20%;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 3px;
-    width: 40px;
-    height: 40px;
+  border: 1px solid #ccc;
+  border-radius: 20%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 3px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  color: #512da8;
 }
+
 .use
 {
-    font-size: 13px;
-    line-height: 5px;
-    letter-spacing: 0.3px;
-    margin: 5px 0;
+  width: 50%;
+  text-align: center;
+  font-size:small;
 }
+
 .form-container input
 {
     background-color: #eee;
@@ -74,45 +117,4 @@
     text-transform: uppercase;
     margin-top: 10px;
     cursor: pointer;
-}
-.toggle
-{
-    background-color: #512da8;
-    width: 50%;
-    height: 480px;
-    background: linear-gradient(to right, #5c6bc0, #512da8);
-    color: #fff;
-    transition: all 0.6s ease-in-out;
-    border-radius: 150px 30px 30px 100px;
-}
-.toggle-container
-{
-    display: flex;
-    gap: 15px;
-    flex-direction: column;
-    height: 100%;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    padding: 0 30px;
-}
-.toggle-container p
-{
-    font-size: small;
-    text-align: center;
-}
-.toggle-container button
-{
-    background-color: transparent;
-    color: #fff;
-    font-size: 12px;
-    padding: 10px 30px;
-    border: 1px solid white;
-    border-radius: 8px;
-    font-weight: 600;
-    letter-spacing: 0.5px;
-    text-transform: uppercase;
-    margin-top: 10px;
-    cursor: pointer;
-
 }
