@@ -79,7 +79,7 @@ function Signup() {
           <p>
             Enter your personal details to use all of site features
           </p>
-          <Link to="/login"><button>SIGN UP</button></Link>
+          <Link to="/login"><button>SIGN IN</button></Link>
         </div>
       </div>
 
